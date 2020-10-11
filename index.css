@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  
+  font-family: Rubik, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4;
+  color: #101010;
+}
+
+h1 {
+  margin-top: 100px;
+  font-family: Rubik, sans-serif;
+  letter-spacing: 1px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #101010;
+    color: #f4f4f4;
+  }
+  html {
+    background-color: #101010;
+  }
+}
+
+a {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
